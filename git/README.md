@@ -135,3 +135,9 @@ $ git checkout <file-name>
 ```sh
 $ git touch .gitignore
 ```
+
+- Abrir directorio en el visual code
+
+```sh
+$ code .
+```
