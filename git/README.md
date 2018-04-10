@@ -141,3 +141,39 @@ $ git touch .gitignore
 ```sh
 $ code .
 ```
+
+- Ver configuración git
+```sh
+$ git config --list
+```
+
+- Clonar repo
+
+```sh
+$ git clone <url-repo>
+```
+
+- Subir a github.
+
+```sh
+$ git push
+```
+
+### Actualizar fork.
+
+- Establecer vínculo entre un repositorio local y otro remoto. Desde el directorio de nuestro fork local. para mantener actualizado tu fork con las actualizaciones de otros pullrequest.
+
+```sh
+$ git remote add upstream <url-repo>
+```
+
+- Bajarnos los cambios de ese repo remoto
+```sh
+$ git fetch upstream
+```
+
+- Mergear esos cambios a nuestro repo local
+```sh
+$ git merge upstream/<branch>
+```
+
