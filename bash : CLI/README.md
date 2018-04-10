@@ -123,7 +123,7 @@ $ cat <nombre_del_archivo.extension>
 - Buscar archivos con determinado contenido.
 
 el punto es la carpeta / directorio en el que estamos
--r (repulsivamente, solo esta carpeta, busca repulsivamente)
+-r (recursivamente, solo esta carpeta, busca recursivamente)
 -e (expresión)
 
 ```sh
