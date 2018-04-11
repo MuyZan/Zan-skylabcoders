@@ -68,6 +68,12 @@ $ git diff
 $ git log
 ```
 
+- Historial de commits con resumen
+
+```sh
+$ git log --summary
+```
+
 - Volver a una versión anterior.
 
 ```sh
@@ -147,10 +153,16 @@ $ code .
 $ git config --list
 ```
 
-- Clonar repo
+- Crear un repositorio remoto
+Donde origin puede ser cambiado por otro nombre, pero generalmente se mantiene origin.
+```sh
+$ git remote add origin <url-repo>
+````
+
+- Subir a github por primera vez el directorio local recordando los cambios. Luego ya sólo tendremos que hacer "$ git push"
 
 ```sh
-$ git clone <url-repo>
+$ git push -u <name-of-Repo> <branch>
 ```
 
 - Subir a github.
@@ -158,6 +170,14 @@ $ git clone <url-repo>
 ```sh
 $ git push
 ```
+
+- Clonar repo
+
+```sh
+$ git clone <url-repo>
+```
+
+
 
 ### Actualizar fork.
 
