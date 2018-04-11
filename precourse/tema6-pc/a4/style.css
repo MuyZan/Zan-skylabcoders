@@ -1,0 +1,27 @@
+
+.images{
+    margin: 0 auto;
+    width: 930px;
+    background-color: black;
+}
+
+
+
+img{
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    margin:10px;
+    display: inline-block;
+ }
+
+ img:hover{
+    -webkit-box-shadow: 0 0 4px 6px grey;
+    -moz-box-shadow: 0 0 4px 6px grey;
+         box-shadow: 0 0 4px 6px grey;
+         opacity:0.8;
+ }

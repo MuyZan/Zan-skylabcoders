@@ -129,6 +129,10 @@ el punto es la carpeta / directorio en el que estamos
 ```sh
 $ grep -r . -e <contenido>
 ```
+- Copiar carpeta dentro de otra carpeta
+```sh
+$ cp -R <original-folder> <other-folder>
+```
 
 ### Otros.
 ----

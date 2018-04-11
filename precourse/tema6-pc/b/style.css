@@ -1,0 +1,46 @@
+ table, th, td{
+    border: 1px solid black;
+
+}
+
+strong, em{
+color: mediumvioletred;
+}
+td{
+    color: purple;
+}
+
+h1, h2{
+    color: green;
+}
+
+img{
+    width:100px;
+}
+
+label{
+    color: purple;
+}
+
+.otherlist ul {
+    list-style: none;
+ 
+  }
+
+.otherlist li::before {
+    content: "♦ ";
+    color: yellow; 
+  }
+
+.genderform{
+      border: 1px solid black;
+      padding:15px;
+      position:relative;
+  }
+
+.genderform .special{
+    background-color:white;
+    padding:2px;
+    position: absolute;
+    top:-10px;
+}

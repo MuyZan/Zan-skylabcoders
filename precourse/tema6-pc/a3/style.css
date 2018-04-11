@@ -1,0 +1,28 @@
+.news{
+    width: 600px;
+    margin: 0 auto;
+    background-color:lightgrey;
+}
+
+.section img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    margin-right:15px;
+    float:left;
+ }
+
+.section{
+ height:200px;
+ padding:15px;
+display:block;
+overflow: hidden;
+}
+
+
+.section:hover{
+    background-color:white;
+}
+
+
+

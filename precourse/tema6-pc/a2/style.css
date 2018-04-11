@@ -1,0 +1,92 @@
+li {
+    display: inline-block;
+    width:120px;
+    padding: 10px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right:5px;
+    margin-bottom: 10px;
+}
+
+#one li{
+    color: white;
+}
+
+#two li{
+    background-color: white;
+}
+
+#three li{
+    color: white;
+    border-radius: 30px;
+}
+
+#four li{
+    background-color: white;
+    border-radius: 30px;
+}
+
+#five li{
+    border-radius: 30px;
+    width:70px;
+    color:white;
+
+}
+
+#six li{
+    color: white;
+    width: 160px;
+    font-size:40px;
+    padding: 15px;
+    border-radius: 25px;
+    }
+
+
+
+
+
+.grey {
+   
+    background-color: rgba(211,211,211,0.7);
+    border-color:lightgrey;
+    color: lightgrey;
+    
+}
+
+.blue{
+    background-color: rgba(0,0,255,0.7);
+    border-color: blue;
+    color: blue;
+}
+
+.green{
+    background-color: rgba(0,128,0,0.7);
+    border-color: green;
+    color:green;
+}
+
+.cyan{
+    background-color: rgba(173,216,230,0.7);
+    border-color: lightblue;
+    color: lightblue;
+}
+
+.yellow{
+    background-color: rgba(255,165,0,0.7);
+    border-color: orange;
+    color: orange;
+}
+
+.red{
+    background-color: rgba(255,0,0,0.7);
+    border-color: red;
+    color: red
+}
+
+.blackletter{
+    color: black !important;
+}

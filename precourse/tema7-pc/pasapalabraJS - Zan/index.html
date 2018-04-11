@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pasapalabra JS</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div id="game">
+        <div id="rosco" class="rosco">
+            <div class="circle" id="a">
+                <div class="letter">A</div>
+            </div>
+            <div class="circle" id="b">
+                <div class="letter">B</div>
+            </div>
+            <div class="circle" id="c">
+                <div class="letter">C</div>
+            </div>
+            <div class="circle" id="d">
+                <div class="letter">D</div>
+            </div>
+            <div class="circle" id="e">
+                <div class="letter">E</div>
+            </div>
+            <div class="circle" id="f">
+                <div class="letter">F</div>
+            </div>
+            <div class="circle" id="g">
+                <div class="letter">G</div>
+            </div>
+            <div class="circle" id="h">
+                <div class="letter">H</div>
+            </div>
+            <div class="circle" id="i">
+                <div class="letter">I</div>
+            </div>
+            <div class="circle" id="j">
+                <div class="letter">J</div>
+            </div>
+            <div class="circle" id="k">
+                <div class="letter">K</div>
+            </div>
+            <div class="circle" id="l">
+                <div class="letter">L</div>
+            </div>
+            <div class="circle" id="m">
+                <div class="letter">M</div>
+            </div>
+            <div class="circle" id="n">
+                <div class="letter">N</div>
+            </div>
+            <div class="circle" id="ñ">
+                <div class="letter">Ñ</div>
+            </div>
+            <div class="circle" id="o">
+                <div class="letter">O</div>
+            </div>
+            <div class="circle" id="p">
+                <div class="letter">P</div>
+            </div>
+            <div class="circle" id="q">
+                <div class="letter">Q</div>
+            </div>
+            <div class="circle" id="r">
+                <div class="letter">R</div>
+            </div>
+            <div class="circle" id="s">
+                <div class="letter">S</div>
+            </div>
+            <div class="circle" id="t">
+                <div class="letter">T</div>
+            </div>
+            <div class="circle" id="u">
+                <div class="letter">U</div>
+            </div>
+            <div class="circle" id="v">
+                <div class="letter">V</div>
+            </div>
+            <div class="circle" id="w">
+                <div class="letter">W</div>
+            </div>
+            <div class="circle" id="x">
+                <div class="letter">X</div>
+            </div>
+            <div class="circle" id="y">
+                <div class="letter">Y</div>
+            </div>
+            <div class="circle" id="z">
+                <div class="letter">Z</div>
+            </div>
+        </div>
+        <h2 id="message">
+    </div>
+    </div>
+
+    <button onclick="game()" id="start">Iniciar juego</button>
+
+    <form id="answerbox" class="hidden">
+
+        <p id="questionbox"></p>
+        <input type="text" id="answer" onfocus="this.value=''" value="Escribe aquí tu respuesta">
+        <br>
+        <input type="submit" id="submit" value="Responder">
+        <br>
+        <br>
+        <a id="pasapalabra">
+            <div id="pasapalabraWord" value="PASAPALABRA">PASAPALABRA</div>
+        </a>
+
+    </form>
+
+
+
+    <script src="app/app.js"></script>
+
+</body>
+
+</html>
